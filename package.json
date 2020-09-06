@@ -1,0 +1,28 @@
+{
+  "name": "cactus-telegram-bot",
+  "version": "1.0.0",
+  "description": "A telegram bot for cactus watering home IoT system",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/softdrum/cactus-telegram-bot.git"
+  },
+  "keywords": [
+    "nodejs",
+    "iot",
+    "telegram"
+  ],
+  "author": "Daniel R.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/softdrum/cactus-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/softdrum/cactus-telegram-bot#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "node-telegram-bot-api": "^0.50.0"
+  }
+}
